@@ -1,0 +1,244 @@
+/* Variables */
+:root {
+  --accent-color: #4d5ae5;
+  --main-color: #434455;
+  --nav-header-color: #2e2f42;
+  --portfolio-menu-button-active-color: #404bbf;
+  --portfolio-menu-button-passive-color: #f4f4fd;
+  --highlight-color: #ffffff;
+
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+/* Components */
+.all-list-style {
+  list-style: none;
+}
+
+.all-link-style {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.h2-header-hidden {
+  font-size: 0;
+}
+
+.h3-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--nav-header-color);
+}
+
+.h2-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: var(--nav-header-color);
+}
+
+.section-row-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-color);
+}
+
+/* Main Page Styles */
+
+/* Header */
+.main-header {
+}
+
+.nav {
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--nav-header-color);
+}
+
+.menu {
+}
+
+.address {
+}
+.address-list {
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--nav-header-color);
+}
+
+.contact-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-color);
+}
+
+.contact-mail {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-color);
+}
+
+/* MAIN */
+.main-page {
+}
+
+/* Hero */
+.section-hero {
+  width: 1440px;
+  height: 600px;
+  background: var(--nav-header-color);
+}
+
+.h1-hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--highlight-color);
+}
+
+.modal-button {
+  width: 169px;
+  height: 56px;
+  background: var(--nav-header-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--highlight-color);
+}
+
+/* Section 1 */
+.section-1 {
+}
+
+.text-sec1 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-color);
+}
+
+/* Section 2 */
+.section-2 {
+}
+.menu-item-sec2 {
+}
+
+/* Section 3 */
+.section-3 {
+}
+
+.menu-item-sec3 {
+}
+
+.text-sec3 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-color);
+}
+
+/* Footer */
+.footer {
+  /* position: absolute; */
+  width: 1440px;
+  height: 312px;
+  /* left: 0px;
+  top: 2280px; */
+  background: var(--nav-header-color);
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5x;
+  color: var(--portfolio-menu-button-passive-color);
+}
+
+/* Portfolio Styles */
+
+.portfolio-main {
+}
+
+/* Portfolio Section 1 */
+.portfolio-sec1 {
+}
+
+.portfolio-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 116px;
+  height: 48px;
+  background: var(--portfolio-menu-button-passive-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 12px 24px;
+  width: 116px;
+  height: 48px;
+  background: var(--portfolio-menu-button-active-color);
+  cursor: pointer;
+}
+
+.portfolio-button-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+}
+.portfolio-button-label:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--highlight-color);
+}
+
+/* Portfolio Section 2 */
+.portfolio-sec2 {
+}
+/* Portfolio Section 3 */
+.portfolio-sec3 {
+}
+.sec-row-item {
+}

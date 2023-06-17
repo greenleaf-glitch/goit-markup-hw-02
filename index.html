@@ -5,82 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEBSTUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <!-- Menu Nav -->
-      <nav>
+      <nav class="nav">
         <!-- Logo -->
-        <a href="./index.html"> WebStudio</a>
-        <ul>
+        <a class="logo all-link-style" href="./index.html"
+          ><span style="color: var(--accent-color)">Web</span>Studio</a
+        >
+        <ul class="menu all-list-style">
           <!-- Studio -->
-          <li>
-            <a href="/Studio">Studio</a>
+          <li class="menu-item">
+            <a class="menu-link all-link-style" href="/Studio">Studio</a>
           </li>
           <!-- Portfolio -->
           <li>
-            <a href="/portfolio.html">Portfolio</a>
+            <a class="menu-link all-link-style" href="/portfolio.html"
+              >Portfolio</a
+            >
           </li>
           <!-- Contacts -->
           <li>
-            <a href="/contacts">Contacts</a>
+            <a class="menu-link all-link-style" href="/contacts">Contacts</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
+      <address class="address">
+        <ul class="address-list all-list-style">
+          <li class="menu-item">
             <!-- Mail -->
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a
+              class="contact-mail all-link-style"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li>
+          <li class="menu-item">
             <!-- Phone -->
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="contact-tel all-link-style" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
 
     <!-- Main Page -->
-    <main>
+    <main class="main-page">
       <!-- Hero Image -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="section-hero">
+        <h1 class="h1-hero-title">Effective Solutions for Your Business</h1>
+        <button class="modal-button" type="button">Order Service</button>
       </section>
 
       <!-- Section 1 -->
-      <section>
-        <h2>Our features</h2>
-        <ul>
-          <li>
+      <section class="section-1">
+        <h2 class="h2-header-hidden">Our features</h2>
+        <ul class="section-1-list all-list-style">
+          <li class="menu-item-sec1">
             <!-- Feature 1 -->
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="h3-header">Strategy</h3>
+            <p class="text-sec1">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
             <!-- Feature 2 -->
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="h3-header">Punctuality</h3>
+            <p class="text-sec1">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
             <!-- Feature 3 -->
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="h3-header">Diligence</h3>
+            <p class="text-sec1">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
             <!-- Feature 4 -->
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="h3-header">Technologies</h3>
+            <p class="text-sec1">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -89,10 +106,10 @@
       </section>
 
       <!-- Section 2 -->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
+      <section class="section-2">
+        <h2 class="h2-header">What are we doing</h2>
+        <ul class="all-list-style">
+          <li class="menu-item-sec2">
             <img
               src="./images/products/img_1.jpg"
               alt="product_1"
@@ -100,7 +117,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="menu-item-sec2">
             <img
               src="./images/products/img_2.jpg"
               alt="product_2"
@@ -108,7 +125,7 @@
               height="300"
             />
           </li>
-          <li>
+          <li class="menu-item-sec2">
             <img
               src="./images/products/img_3.jpg"
               alt="product_3"
@@ -120,58 +137,63 @@
       </section>
 
       <!-- Section 3 -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+      <section class="section-3">
+        <h2 class="h2-header">Our Team</h2>
+        <ul class="all-list-style">
+          <li class="menu-item-sec3">
             <img
               src="./images/team/team_card_1.jpg"
               alt="team_card_1"
               width="264"
               height="260"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="h3-header">Mark Guerrero</h3>
+            <p class="text-sec3">Product Designer</p>
           </li>
-          <li>
+          <li class="menu-item-sec3">
             <img
               src="./images/team/team_card_2.jpg"
               alt="team_card_2"
               width="264"
               height="260"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="h3-header">Tom Ford</h3>
+            <p class="text-sec3">Frontend Developer</p>
           </li>
-          <li>
+          <li class="menu-item-sec3">
             <img
               src="./images/team/team_card_3.jpg"
               alt="team_card_3"
               width="264"
               height="260"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="h3-header">Camila Garcia</h3>
+            <p class="text-sec3">Marketing</p>
           </li>
-          <li>
+          <li class="menu-item-sec3">
             <img
               src="./images/team/team_card_4.jpg"
               alt="team_card_4"
               width="264"
               height="260"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="h3-header">Daniel Wilson</h3>
+            <p class="text-sec3">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
       <!-- Logo -->
-      <a href="./index.html"> WebStudio</a>
-      <p>
+      <a class="logo all-link-style" href="./index.html">
+        <span style="color: var(--accent-color)">Web</span>
+        <span style="color: var(--portfolio-menu-button-passive-color)"
+          >Studio</span
+        >
+      </a>
+      <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
