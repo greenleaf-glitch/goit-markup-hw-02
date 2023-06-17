@@ -135,6 +135,11 @@ body {
   color: var(--highlight-color);
 }
 
+.modal-button:hover,
+.modal-button:focus {
+  cursor: pointer;
+}
+
 /* Section 1 */
 .section-1 {
 }
