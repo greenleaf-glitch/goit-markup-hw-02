@@ -98,10 +98,8 @@ body {
   color: var(--primary-color);
 }
 
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-tel:hover,
-.contact-tel:focus {
+.contact:hover,
+.contact:focus {
   color: var(--portfolio-menu-button-active-color);
 }
 
