@@ -6,17 +6,16 @@
   --portfolio-menu-button-active-color: #404bbf;
   --portfolio-menu-button-passive-color: #f4f4fd;
   --highlight-color: #ffffff;
-
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
 
 /* Components */
-.all-list-style {
+.list {
   list-style: none;
 }
 
-.all-link-style {
+.link {
   text-decoration: none;
 }
 
@@ -26,9 +25,10 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+  background-color: #ffffff;
 }
 
-.h2-header-hidden {
+.header-hidden {
   font-size: 0;
 }
 
@@ -45,6 +45,8 @@ body {
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--secondary-color);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .section-row-text {
@@ -56,11 +58,6 @@ body {
 /* Main Page Styles */
 
 /* Header */
-.main-header {
-}
-
-.nav {
-}
 
 .logo {
   font-family: var(--secondary-font);
@@ -69,14 +66,18 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--secondary-color);
 }
 
-.menu {
+.logo-color-web {
+  color: var(--accent-color);
 }
 
-.address {
+.logo-color-studio-header {
+  color: var(--secondary-color);
 }
+
 .address-list {
   font-style: normal;
 }
@@ -100,14 +101,16 @@ body {
   color: var(--primary-color);
 }
 
-/* MAIN */
-.main-page {
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-tel:hover,
+.contact-tel:focus {
+  color: var(--portfolio-menu-button-active-color);
 }
 
+/* MAIN */
 /* Hero */
 .section-hero {
-  width: 1440px;
-  height: 600px;
   background: var(--secondary-color);
 }
 
@@ -116,21 +119,17 @@ body {
   font-size: 56px;
   line-height: 1.07;
   color: var(--highlight-color);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .modal-button {
-  width: 169px;
-  height: 56px;
+  font-family: "Roboto", sans-serif;
   background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
   font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--highlight-color);
 }
@@ -138,11 +137,10 @@ body {
 .modal-button:hover,
 .modal-button:focus {
   cursor: pointer;
+  background-color: #404bbf;
 }
 
 /* Section 1 */
-.section-1 {
-}
 
 .text-sec1 {
   font-size: 16px;
@@ -151,18 +149,11 @@ body {
 }
 
 /* Section 2 */
-.section-2 {
-}
-.menu-item-sec2 {
-}
 
 /* Section 3 */
 .section-3 {
+  background-color: #f4f4fd;
 }
-
-.menu-item-sec3 {
-}
-
 .text-sec3 {
   font-size: 16px;
   line-height: 1.5;
@@ -171,81 +162,36 @@ body {
 
 /* Footer */
 .footer {
-  /* position: absolute; */
-  width: 1440px;
-  height: 312px;
-  /* left: 0px;
-  top: 2280px; */
   background: var(--secondary-color);
+}
+
+.logo-color-studio-footer {
+  color: var(--portfolio-menu-button-passive-color);
 }
 
 .text-footer {
   font-size: 16px;
-  line-height: 1.5x;
+  line-height: 1.5;
   color: var(--portfolio-menu-button-passive-color);
 }
 
 /* Portfolio Styles */
 
-.portfolio-main {
-}
-
 /* Portfolio Section 1 */
-.portfolio-sec1 {
-}
-
 .portfolio-button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-  width: 116px;
-  height: 48px;
-  background: var(--portfolio-menu-button-passive-color);
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #e7e9fc;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 12px 24px;
-  width: 116px;
-  height: 48px;
-  background: var(--portfolio-menu-button-active-color);
+  background-color: var(--portfolio-menu-button-active-color);
   cursor: pointer;
-}
-
-.portfolio-button-label {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--accent-color);
-}
-.portfolio-button-label:hover {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
   color: var(--highlight-color);
-}
-
-/* Portfolio Section 2 */
-.portfolio-sec2 {
-}
-/* Portfolio Section 3 */
-.portfolio-sec3 {
-}
-.sec-row-item {
 }
