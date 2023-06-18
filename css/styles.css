@@ -32,14 +32,15 @@ body {
   font-size: 0;
 }
 
-.h3-header {
+.header-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--secondary-color);
+  letter-spacing: 0.02em;
 }
 
-.h2-header {
+.header-h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -47,6 +48,7 @@ body {
   color: var(--secondary-color);
   letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .section-row-text {
@@ -67,11 +69,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
 
-.logo-color-web {
-  color: var(--accent-color);
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 
 .logo-color-studio-header {
@@ -87,6 +90,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-color);
+}
+
+.address {
+  font-style: normal;
 }
 
 .contact-tel {
@@ -114,7 +121,7 @@ body {
   background: var(--secondary-color);
 }
 
-.h1-hero-title {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -160,6 +167,10 @@ body {
   color: var(--primary-color);
 }
 
+.menu-item-sec3 {
+  background-color: #ffffff;
+}
+
 /* Footer */
 .footer {
   background: var(--secondary-color);
@@ -186,7 +197,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background-color: #e7e9fc;
+  background-color: var(--portfolio-menu-button-passive-color);
 }
 
 .portfolio-button:hover,
