@@ -92,13 +92,7 @@ body {
   font-style: normal;
 }
 
-.contact-tel {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--primary-color);
-}
-
-.contact-mail {
+.contact {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-color);
