@@ -32,15 +32,7 @@ body {
   font-size: 0;
 }
 
-.header3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--secondary-color);
-  letter-spacing: 0.02em;
-}
-
-.header2 {
+.header-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -48,6 +40,14 @@ body {
   color: var(--secondary-color);
   letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.header-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--secondary-color);
   letter-spacing: 0.02em;
 }
 
@@ -79,10 +79,6 @@ body {
 
 .logo-color-studio-header {
   color: var(--secondary-color);
-}
-
-.address-list {
-  font-style: normal;
 }
 
 .menu-link {
@@ -131,7 +127,7 @@ body {
 }
 
 .modal-button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   background: var(--accent-color);
   font-family: var(--secondary-font);
   font-weight: 500;
@@ -144,12 +140,12 @@ body {
 .modal-button:hover,
 .modal-button:focus {
   cursor: pointer;
-  background-color: #404bbf;
+  background-color: var(--portfolio-menu-button-active-color);
 }
 
 /* Section 1 */
 
-.text-sec1 {
+.text-sec-features {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-color);
@@ -158,16 +154,16 @@ body {
 /* Section 2 */
 
 /* Section 3 */
-.section3 {
+.section-team {
   background-color: #f4f4fd;
 }
-.text-sec3 {
+.text-team {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-color);
 }
 
-.menu-item-sec3 {
+.menu-item-team {
   background-color: #ffffff;
 }
 
@@ -190,7 +186,7 @@ body {
 
 /* Portfolio Section 1 */
 .portfolio-button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   list-style: none;
   font-weight: 500;
   font-size: 16px;
