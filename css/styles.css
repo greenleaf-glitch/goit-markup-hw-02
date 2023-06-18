@@ -137,6 +137,10 @@ body {
   color: var(--highlight-color);
 }
 
+.button {
+  font-family: "Roboto", sans-serif;
+}
+
 .modal-button:hover,
 .modal-button:focus {
   cursor: pointer;
